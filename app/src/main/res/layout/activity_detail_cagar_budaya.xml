@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.detailcagarbudaya.DetailCagarBudaya">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/pb_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp" />
+
+        <LinearLayout
+            android:id="@+id/ll_show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                style="@style/TextViewDetail"
+                android:text="@string/kode_pengelolaan" />
+
+            <TextView
+                android:id="@+id/tv_kode_pengelolaan"
+                style="@style/TextViewSubDetail" />
+
+            <TextView
+                style="@style/TextViewDetail"
+                android:text="@string/nama" />
+
+            <TextView
+                android:id="@+id/tv_nama"
+                style="@style/TextViewSubDetail" />
+
+            <TextView
+                style="@style/TextViewDetail"
+                android:text="@string/alamat_jalan" />
+
+            <TextView
+                android:id="@+id/tv_alamat_jalan"
+                style="@style/TextViewSubDetail" />
+
+            <TextView
+                style="@style/TextViewDetail"
+                android:text="@string/desa_kelurahan" />
+
+            <TextView
+                android:id="@+id/tv_desa_kelurahan"
+                style="@style/TextViewSubDetail" />
+
+            <TextView
+                style="@style/TextViewDetail"
+                android:text="@string/kecamatan" />
+
+            <TextView
+                android:id="@+id/tv_kecamatan"
+                style="@style/TextViewSubDetail" />
+
+            <TextView
+                style="@style/TextViewDetail"
+                android:text="@string/kabupaten_kota" />
+
+            <TextView
+                android:id="@+id/tv_kabupaten_kota"
+                style="@style/TextViewSubDetail" />
+
+            <TextView
+                style="@style/TextViewDetail"
+                android:text="@string/propinsi" />
+
+            <TextView
+                android:id="@+id/tv_propinsi"
+                style="@style/TextViewSubDetail" />
+
+            <TextView
+                style="@style/TextViewDetail"
+                android:text="@string/nomor_penetapan" />
+
+            <TextView
+                android:id="@+id/tv_nomor_penetapan"
+                style="@style/TextViewSubDetail" />
+
+            <TextView
+                style="@style/TextViewDetail"
+                android:text="@string/tanggal_penetapan" />
+
+            <TextView
+                android:id="@+id/tv_tanggal_penetapan"
+                style="@style/TextViewSubDetail" />
+
+            <TextView
+                style="@style/TextViewDetail"
+                android:text="@string/batas_barat" />
+
+            <TextView
+                android:id="@+id/tv_batas_barat"
+                style="@style/TextViewSubDetail" />
+
+            <TextView
+                style="@style/TextViewDetail"
+                android:text="@string/batas_selatan" />
+
+            <TextView
+                android:id="@+id/tv_batas_selatan"
+                style="@style/TextViewSubDetail" />
+
+            <TextView
+                style="@style/TextViewDetail"
+                android:text="@string/batas_utara" />
+
+            <TextView
+                android:id="@+id/tv_batas_utara"
+                style="@style/TextViewSubDetail" />
+
+            <TextView
+                style="@style/TextViewDetail"
+                android:text="@string/batas_timur" />
+
+            <TextView
+                android:id="@+id/tv_batas_timur"
+                style="@style/TextViewSubDetail" />
+
+            <TextView
+                style="@style/TextViewDetail"
+                android:text="@string/pemilik" />
+
+            <TextView
+                android:id="@+id/tv_pemilik"
+                style="@style/TextViewSubDetail" />
+
+            <TextView
+                style="@style/TextViewDetail"
+                android:text="@string/pengelola" />
+
+            <TextView
+                android:id="@+id/tv_pengelola"
+                style="@style/TextViewSubDetail" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

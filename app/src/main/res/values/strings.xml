@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Museum dan Cagar Budaya</string>
+    <string name="cagar_budaya">Cagar Budaya</string>
+    <string name="cagarBudaya">Cagar Budaya</string>
+    <string name="museum">Museum</string>
+    <string name="kode_pengelolaan">Kode Pengelolaan</string>
+    <string name="nama">Nama</string>
+    <string name="alamat_jalan">Alamat Jalan</string>
+    <string name="desa_kelurahan">Desa Kelurahan</string>
+    <string name="kecamatan">Kecamatan</string>
+    <string name="kabupaten_kota">Kabupaten Kota</string>
+    <string name="propinsi">Propinsi</string>
+    <string name="nomor_penetapan">Nomor Penetapan</string>
+    <string name="tanggal_penetapan">Tanggal Penetapan</string>
+    <string name="batas_barat">Batas Barat</string>
+    <string name="batas_selatan">Batas Selatan</string>
+    <string name="batas_utara">Batas Utara</string>
+    <string name="batas_timur">Batas Timur</string>
+    <string name="pemilik">Pemilik</string>
+    <string name="pengelola">Pengelola</string>
+    <string name="detail_cagar_budaya">Detail Cagar Budaya</string>
+    <string name="detail_museum">Detail Museum</string>
+    <string name="sumber_dana">Sumber Dana</string>
+    <string name="tipe">Tipe</string>
+    <string name="standar">Standar</string>
+    <string name="tahun_berdiri">Tahun Berdiri</string>
+    <string name="bangunan">Bangunan</string>
+    <string name="luas_tanah">Luas Tanah</string>
+    <string name="status_kepemilikan">Status Kepemilikan</string>
+    <string name="keleksi">Keleksi</string>
+    <string name="sdm">SDM</string>
+</resources>

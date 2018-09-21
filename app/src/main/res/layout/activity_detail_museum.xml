@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.detailmuseum.DetailMuseumActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/pb_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp" />
+
+        <LinearLayout
+            android:id="@+id/ll_show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView style="@style/TextViewDetail"
+                android:text="@string/kode_pengelolaan"/>
+
+            <TextView style="@style/TextViewSubDetail"
+                android:id="@+id/tv_kode_pengelolaan"/>
+
+            <TextView style="@style/TextViewDetail"
+                android:text="@string/nama"/>
+
+            <TextView style="@style/TextViewSubDetail"
+                android:id="@+id/tv_nama"/>
+
+            <TextView style="@style/TextViewDetail"
+                android:text="@string/sdm"/>
+
+            <TextView style="@style/TextViewSubDetail"
+                android:id="@+id/tv_sdm"/>
+
+            <TextView style="@style/TextViewDetail"
+                android:text="@string/alamat_jalan"/>
+
+            <TextView style="@style/TextViewSubDetail"
+                android:id="@+id/tv_alamat_jalan"/>
+
+            <TextView style="@style/TextViewDetail"
+                android:text="@string/desa_kelurahan"/>
+
+            <TextView style="@style/TextViewSubDetail"
+                android:id="@+id/tv_desa_kelurahan"/>
+
+            <TextView style="@style/TextViewDetail"
+                android:text="@string/kecamatan"/>
+
+            <TextView style="@style/TextViewSubDetail"
+                android:id="@+id/tv_kecamatan"/>
+
+            <TextView style="@style/TextViewDetail"
+                android:text="@string/kabupaten_kota"/>
+
+            <TextView style="@style/TextViewSubDetail"
+                android:id="@+id/tv_kabupaten_kota"/>
+
+            <TextView style="@style/TextViewDetail"
+                android:text="@string/propinsi"/>
+
+            <TextView style="@style/TextViewSubDetail"
+                android:id="@+id/tv_propinsi"/>
+
+            <TextView style="@style/TextViewDetail"
+                android:text="@string/keleksi"/>
+
+            <TextView style="@style/TextViewSubDetail"
+                android:id="@+id/tv_koleksi"/>
+
+            <TextView style="@style/TextViewDetail"
+                android:text="@string/sumber_dana"/>
+
+            <TextView style="@style/TextViewSubDetail"
+                android:id="@+id/tv_sumber_dana"/>
+
+            <TextView style="@style/TextViewDetail"
+                android:text="@string/pengelola"/>
+
+            <TextView style="@style/TextViewSubDetail"
+                android:id="@+id/tv_pengelola"/>
+
+            <TextView style="@style/TextViewDetail"
+                android:text="@string/tipe"/>
+
+            <TextView style="@style/TextViewSubDetail"
+                android:id="@+id/tv_tipe"/>
+
+            <TextView style="@style/TextViewDetail"
+                android:text="@string/standar"/>
+
+            <TextView style="@style/TextViewSubDetail"
+                android:id="@+id/tv_standar"/>
+
+            <TextView style="@style/TextViewDetail"
+                android:text="@string/tahun_berdiri"/>
+
+            <TextView style="@style/TextViewSubDetail"
+                android:id="@+id/tv_tahun_berdiri"/>
+
+            <TextView style="@style/TextViewDetail"
+                android:text="@string/bangunan"/>
+
+            <TextView style="@style/TextViewSubDetail"
+                android:id="@+id/tv_bangunan"/>
+
+            <TextView style="@style/TextViewDetail"
+                android:text="@string/luas_tanah"/>
+
+            <TextView style="@style/TextViewSubDetail"
+                android:id="@+id/tv_luas_tanah"/>
+
+            <TextView style="@style/TextViewDetail"
+                android:text="@string/status_kepemilikan"/>
+
+            <TextView style="@style/TextViewSubDetail"
+                android:id="@+id/tv_status_kepemilikan"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
